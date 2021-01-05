@@ -33,13 +33,6 @@
 
     <?php include VIEW_PATH . 'templates/messages.php'; ?>
 
-    <?php 
-    print '<pre>';
-    var_dump($_POST); 
-    print '</pre>';
-    ?>
-    <?php var_dump($date); ?>
-
     <form method="post" action="teacher_update_report_process.php" class="report_form mx-auto">
    
       <div class="form-row">

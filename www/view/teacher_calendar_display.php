@@ -43,10 +43,3 @@
   </tr>
 </table>
 
-<?php print '<pre>'; ?>
-<?php var_dump($check); ?>
-<?php print '</pre>'; ?>
-<?php print '---------------'; ?>
-<?php print '<pre>'; ?>
-<?php var_dump($admin_check_teacher_calendar); ?>
-<?php print '</pre>'; ?>
