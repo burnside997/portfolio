@@ -1,0 +1,16 @@
+.comment{
+  width: 45%;
+  text-align: left;
+  word-wrap: break-word;
+  table-layout:fixed;
+}
+
+.teacher_list td{
+  padding: 10px;
+  vertical-align: middle;
+}
+
+
+
+
+

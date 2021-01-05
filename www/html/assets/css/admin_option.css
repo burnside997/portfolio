@@ -1,0 +1,7 @@
+.select_period, .select_booth{
+  display: inline-block;
+  width: 20em;
+  margin: 30px 20px;
+}
+
+

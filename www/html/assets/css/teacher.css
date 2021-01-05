@@ -1,0 +1,56 @@
+h3 {
+  margin-bottom: 5px;
+}
+th {
+  height: 10px;
+  text-align: center;
+}
+td {
+  height: 5px;
+}
+
+th:nth-of-type(1), td:nth-of-type(1) {
+  color: red;
+}
+th:nth-of-type(7), td:nth-of-type(7) {
+  color: blue;
+} 
+
+td {
+  width: 20px;
+}
+
+td span {
+  color: orange
+}
+
+li{
+  margin-right: 10px;
+}
+
+.calendar_day:last-child{
+  margin-bottom: 0em;
+}
+
+.modal-title{
+  margin: 0;
+  padding: 0;
+}
+
+/* カレンダー表示--------------------------------------- */
+
+.student_name{
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 指導報告書------------------------------------------ */
+
+.report_form{
+  width: 30em;
+}
+
+
+
+
+

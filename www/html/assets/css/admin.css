@@ -1,0 +1,102 @@
+h3 {
+  margin: 20px 0;
+}
+th {
+  height: 10px;
+  text-align: center;
+}
+td {
+  height: 5px;
+  width: 20px;
+}
+
+.vertical_calendar th:nth-of-type(1), .vertical_calendar td:nth-of-type(1) {
+  color: red;
+}
+
+.vertical_calendar th:nth-of-type(7), .vertical_calendar td:nth-of-type(7) {
+  color: blue;
+} 
+
+td span {
+  color: orange
+}
+
+li{
+  margin-right: 10px;
+}
+
+.calendar_day:last-child{
+  margin-bottom: 0em;
+}
+
+.dropdown{
+  margin: 5px;
+}
+
+.timetable_decision{
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.vertical_calendar td{
+  display: block;
+}
+
+/* ----------------------------- */
+
+.period{
+  padding: 0;
+  margin: 0;
+  color: green;
+  font-weight: bold;
+}
+
+.booth{
+  padding: 0;
+  margin: 0;
+}
+
+.determined_teacher{
+  display: inline-block;
+  margin: 5px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 250px;
+} 
+.determined_student{ 
+  display: inline-block;
+  margin: 0px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 550px;
+}
+
+/* teacher_list------------------------------------ */
+
+.teacher_list td{
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.teacher_list .comment{
+  width: 45%;
+  text-align: left;
+  word-wrap: break-word;
+  table-layout:fixed;
+}
+
+/* student_list------------------------------------ */
+
+.student_list td{
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.student_list .comment{
+  width: 45%;
+  text-align: left;
+  word-wrap: break-word;
+  table-layout:fixed;
+}
+
