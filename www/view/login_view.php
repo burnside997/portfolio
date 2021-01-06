@@ -24,5 +24,9 @@
       <input type="submit" value="ログイン" class="btn btn-primary">
     </form>
   </div>
+
+  <div class="preview">
+    <p>このサイトの使用方法<a href="preview.php">http://localhost:8082/preview.php</a></p>
+  </div>
 </body>
 </html>
