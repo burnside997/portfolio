@@ -23,13 +23,19 @@ $period = get_post('period');
 $booth = get_post('booth');
 
 if(get_post('period_submit')){
-  update_option_period($db, $period);
+  if(update_option_period($db, $period) === true){
   set_message('時限数を設定しました。');
+  }else{
+    set_error('時限数の設定に失敗しました。');
+  }
 }
 
 if(get_post('booth_submit')){
-  update_option_booth($db, $booth);
-  set_message('ブース数を設定しました。');
+  if(update_option_booth($db, $booth) === true){
+    set_message('ブース数を設定しました。');
+  }else{
+    set_error('ブース数の設定に失敗しました。');
+  }
 }
 
 $option = get_option($db);

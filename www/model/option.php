@@ -3,6 +3,9 @@ require_once MODEL_PATH . 'functions.php';
 require_once MODEL_PATH . 'db.php';
 
 function update_option_period($db, $period){
+  if($period<1 || $period>5){
+    return false;
+  }
   $sql="
     UPDATE
       admin_option
@@ -15,6 +18,9 @@ function update_option_period($db, $period){
 }
 
 function update_option_booth($db, $booth){
+  if($booth<1 || $booth>5){
+    return false;
+  }
   $sql="
     UPDATE
       admin_option
