@@ -60,6 +60,11 @@ function insert_timetables($db, $ym, $teacher_id, $students_id, $date, $period, 
     return false;
   }
 
+  if($students_id[0] === ''){
+    set_error('左から順に生徒を選択してください。');
+    return false;
+  }
+
   foreach($students_id as $student_id){
     if($student_id !== ''){
       if(insert_timetable($db, $ym, $teacher_id, $student_id, $date, $period, $booth) === false){
