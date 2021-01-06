@@ -24,7 +24,10 @@
             
             <?php foreach($admin_check_student_calendar as $check): ?>
               <?php if(($ym . '-' . str_pad($value['day'], 2, '0', STR_PAD_LEFT)) === $check['date'] && $i === $check['period']): ?>
-                <p class="student_name">講師:<?php print $check['teacher_id']; ?><?php print $check['teacher_name']; ?>(ブース<?php print $check['booth']; ?>)</p>
+                <p class="student_name">講師:<?php print $check['teacher_id']; ?><?php print $check['teacher_name']; ?></p>
+                <?php if(isset($check['teacher_name'])): ?>
+                <?php break; ?>
+                <?php endif; ?>
               <?php endif; ?>
             <?php endforeach; ?>
 
