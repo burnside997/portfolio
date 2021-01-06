@@ -4,6 +4,7 @@ define('MODEL_PATH', $_SERVER['DOCUMENT_ROOT'] . '/../model/');
 define('VIEW_PATH', $_SERVER['DOCUMENT_ROOT'] . '/../view/');
 
 define('STYLESHEET_PATH', '/assets/css/');
+define('PREVIEW_PATH', '/assets/img/');
 
 if($_SERVER['SERVER_ADDR'] === '160.251.10.213'){
   define('DB_HOST', 'localhost');
