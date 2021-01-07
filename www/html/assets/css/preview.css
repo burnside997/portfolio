@@ -1,9 +1,9 @@
-body{
+.container{
   width: 1000px;
   margin: 0 auto;
 }
 
-li{
+.container li{
   margin: 40px 0;
 }
 .login_img{
