@@ -24,7 +24,7 @@
   </header>
 
   <div class="container">
-  <h1>指導履歴</h1>
+  <h1>受講履歴</h1>
     <?php include VIEW_PATH . 'templates/messages.php'; ?>
 
     <table class="table table-bordered text-center student_list">
