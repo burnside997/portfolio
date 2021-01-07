@@ -1,8 +1,31 @@
+body{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+li{
+  margin: 40px 0;
+}
 .login_img{
   width: 500px;
   border: 1px solid;
 }
 .admin_top_img{
   width: 1000px;
+  border: 1px solid;
+}
+
+.teacher_top_img{
+  width: 800px;
+  border: 1px solid;
+}
+
+.calendar_modal_img{
+  width: 500px;
+  border: 1px solid;
+}
+
+.timetable_img{
+  width: 500px;
   border: 1px solid;
 }
